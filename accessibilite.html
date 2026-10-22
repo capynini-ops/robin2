@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibilité · Robin Nini, avocat</title>
+  <meta name="description" content="Déclaration d'accessibilité du site de Robin Nini, avocat au barreau de Paris.">
+  <link rel="canonical" href="https://www.robin-nini-avocat.fr/accessibilite.html">
+  <meta name="theme-color" content="#F6F4EF">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg" aria-label="Navigation principale">
+      <div class="wrap w-100 d-flex flex-wrap align-items-center justify-content-between">
+        <a class="brand" href="index.html">
+          <span class="brand-name">Robin Nini</span>
+          <span class="brand-sub">Avocat au barreau de Paris</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Ouvrir le menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+        <div class="collapse navbar-collapse site-nav flex-grow-0" id="nav">
+          <ul class="navbar-nav align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="parcours.html">Parcours</a></li>
+            <li class="nav-item"><a class="nav-link" href="domaines.html">Domaines</a></li>
+            <li class="nav-item"><a class="nav-link" href="interventions.html">Interventions</a></li>
+            <li class="nav-item ms-lg-3"><a class="btn btn-accent" href="index.html#contact">Me contacter</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <header class="page-head">
+      <div class="wrap">
+        <nav aria-label="Fil d'Ariane">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Accessibilité</li>
+          </ol>
+        </nav>
+        <h1>Déclaration d'accessibilité</h1>
+      </div>
+    </header>
+
+    <div class="wrap pb-5">
+      <div class="prose legal">
+        <p class="lead-text">Ce site a été conçu pour respecter le référentiel général d'amélioration de l'accessibilité (RGAA), version 4.1.2.</p>
+
+        <h2>État de conformité</h2>
+        <p>Le site n'a pas encore fait l'objet d'un audit complet. Le taux de conformité sera publié sur cette page après l'audit.</p>
+
+        <h2>Mesures prises</h2>
+        <ul>
+          <li>Contrastes de texte d'au moins 4,5:1 sur l'ensemble des pages.</li>
+          <li>Navigation complète au clavier, focus visible et lien d'accès direct au contenu.</li>
+          <li>Champs de formulaire étiquetés, regroupés et accompagnés de messages d'erreur explicites.</li>
+          <li>Vidéos sans lecture automatique, chargées à la demande.</li>
+          <li>Animations désactivées lorsque le système demande de réduire les mouvements.</li>
+        </ul>
+
+        <h2>Contenus non accessibles connus</h2>
+        <p>Les vidéos ne disposent pas encore de transcription textuelle. Les transcriptions seront ajoutées sur la page de chaque intervention.</p>
+
+        <h2>Signaler un problème</h2>
+        <p>Si un contenu vous est inaccessible, écrivez à <span data-site="email">capy.nini@gmail.com</span> en précisant la page concernée. Une alternative vous sera proposée.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="mb-0">Robin Nini, avocat au barreau de Paris, exerçant au sein du cabinet August Debouzy · <span data-site="address">6-8 avenue de Messine, 75008 Paris</span></p>
+      <nav aria-label="Liens légaux">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="confidentialite.html">Confidentialité</a>
+        <a href="accessibilite.html" aria-current="page">Accessibilité</a>
+        <a href="https://www.linkedin.com/in/ninirobinavocat/" target="_blank" rel="noopener">LinkedIn<span class="visually-hidden"> (nouvel onglet)</span></a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/site.js" defer></script>
+</body>
+</html>
